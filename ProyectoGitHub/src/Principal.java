@@ -68,6 +68,7 @@ public class Principal {
     System.out.println("3.- Ejercicio03 (Samuel Moles)");
   	System.out.println("06.- Ejercicio06 (Víctor Carbonell Colomina)");
    	System.out.println("11.- Ejercicio11 (Carlos Moles Valdivieso)");
+			System.out.println("10.-  Exercici 01 (Leo Román vilaplana)");
 
 		System.out.println("22.- Ejercicio 22 (Sergi Cortés)");
 		System.out.println("30.- Salir");
@@ -136,6 +137,7 @@ public class Principal {
 			ejercicio09();
 			break;
 		case 10:
+			a1();	
 			break;
 		case 11:
 			ejercicio11();
@@ -860,4 +862,38 @@ public class ejercicio16 {
 
 		} while (pedir = false);
 	}
+}
+
+		package tema4;
+
+public class a1 {
+
+public static void main (String [] args){
+	
+		
+		int x=1, y=1;
+		
+		 tb(x,y);
+		
+		
+		
+	}
+	
+	 static int tb (int x, int y) {
+			
+			
+			for (int i=1; i<11 ; i++) {
+			for (int m=1; m<11 ; m++) {
+				x=y*m;
+					System.out.println(y+"*"+m+"="+x);			
+				
+			}
+			x=0;
+			y++;
+			
+		}
+		return y & x;	
+	
+	 }	
+	
 }
